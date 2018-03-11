@@ -5,32 +5,36 @@
 using namespace std;
 
 int main(){
-	int cont,tempo,anterior,ativo,somado;
-	cin >>cont;
+	
+	int contador,t1,t2,tAtivo=0;
+	int dif;
 
-	cin >>tempo;
-	anterior = tempo;
-	ativo = 10;
+	cin >>contador >>t2;
+	t1 = t2;
+	tAtivo += 10;
 
-	if(cont != 1){
-		for(int i = 0; i<cont-1; i++){
-			cin >>tempo;
-			cout << "tempo: " <<tempo <<"\n";
-			cout << "anterior: " <<anterior <<"\n";
-			cout << "ativo: " <<ativo <<"\n";
+	for (int i = 0; i < contador-1; ++i)
+	{
+		cin >>t2;
+		dif = t2-t1;
 
-			if(tempo < anterior+10){
-				somado = (anterior+10-tempo);
-				cout << "somado: " <<somado <<"\n";
-				ativo += somado;
-			} else {
-				ativo += 10;
-			}
-			anterior = tempo;
+		//		ð€”↓ŋ
+		//cout<<endl<<"for: "<<i<<endl;
+		//cout<<"tempo 2: "<<t2<<endl;
+		//cout<<"tempo 1: "<<t1<<endl;
+		//cout<<"diferenca: "<<dif<<endl;
+		//cout<<"Ativo: "<<tAtivo<<endl<<endl;
+
+		if(t2 >= t1+10){
+			tAtivo += 10;
+		} else {
+			tAtivo += t2-t1;
 		}
+
+		t1 = t2;
 	}
 
-	cout <<ativo << "\n";
+	cout <<tAtivo <<endl;
 
 	return 0;
 }
