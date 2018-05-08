@@ -1,0 +1,31 @@
+1. Faça um programa em Python que receba um número inteiro positivo N , calcule a expressão seguinte
+considerando os N primeiros elementos da série:
+
+S =1+ 3/2 + 5/3 + 7/4 + 9/5 + ...
+
+
+2. Faça um programa em Python que receba um número inteiro positivo N ≥ 2 e mostre a sequência
+Fibonacci dos N primeiros elementos. Considere que os dois primeiros elementos são 0 e 1.
+
+
+
+
+3. Faça um programa em Python que receba um número inteiro positivo N e mostre a sequência
+Fibonacci com todos os elementos da sequência menores do que N .
+
+
+
+
+4. Faça um programa em Python que receba um número inteiro positivo N . Em seguida, o programa
+deverá receber N números quaisquer, e mostrar o maior, o menor e a média dos números entrados.
+
+
+
+5. Faça um programa em Python que receba um número inteiro não negativo e determine se o número
+é um quadrado perfeito ou não. Não utilizar a função “raiz”.
+
+
+
+
+6. Faça um algoritmo que receba do usuário um número inteiro e exiba o maior número primo que
+seja menor do que o número digitado.
