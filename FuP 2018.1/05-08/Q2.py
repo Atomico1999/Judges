@@ -5,10 +5,10 @@ f1 = 0
 f2 = 1
 
 n = 0
-print "Para SAIR insira um numero negativo.\n"
+print "\nPara SAIR insira um numero negativo.\n"
 
 while(n >= 0):
-	n = input("Insira n: ")
+	n = input("\nInsira n: ")
 
 	for i in range(n):
 #		print "aux: ",aux

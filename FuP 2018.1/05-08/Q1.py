@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-N = input("Insira n: ")
+N = input("\nInsira n: ")
 
 numerador = 1.0
 denominador = 1.0
