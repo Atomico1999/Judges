@@ -14,8 +14,8 @@ for i in range(10):
 
 for i in range(10):
 	somatorio += vetor[i]
-print("somatório: ", somatorio)
+print("Somatorio: ", + somatorio)
 
 for i in range(10):
 	produtorio *=  vetor[i]
-print("Produtório: ", produtorio)
+print("Produtorio: ", + produtorio)
