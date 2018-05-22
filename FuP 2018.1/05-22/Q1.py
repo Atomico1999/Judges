@@ -13,9 +13,9 @@ for i in range(10):
 	vetor[i] = input("Insira um número: ")
 
 for i in range(10):
-	somatorio += vetor[i]
+	somatorio += int(vetor[i])
 print("somatório: ", somatorio)
 
 for i in range(10):
-	produtorio *=  vetor[i]
+	produtorio *=  int(vetor[i])
 print("Produtório: ", produtorio)
