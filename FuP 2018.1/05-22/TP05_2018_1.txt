@@ -1,0 +1,20 @@
+1. Faça um programa em Python que receba e armazene 10 valores numéricos. Em seguida, calcule e
+mostre o somatório e o produtório desses números.
+
+2. Faça um programa em Python que receba até 100.000 valores n~ao negativos. Termine as entradas
+com um valor negativo. O algoritmo deve, ent~ao, mostrar todos os números distintos e, para cada
+número, quantas vezes ele foi entrado.
+
+3. Faça um programa em Python que receba N (com 6 <= N <= 10) números de uma cartela da Mega
+Sena jogada por um usuário. Em seguida, leia os seis números sorteados na Mega Sena. O algoritmo
+deverá mostrar a quantidade de acertos do apostador com sua cartela, os números que ele acertou
+e se ele fez a Mega-Sena (6 acertos), a Quina (5 acertos) ou a Quadra (4 acertos).
+
+4. Faça um programa em Python que receba um determinado valor N e, em seguida, receba N valores
+inteiros do usuário. O algoritmo deverá determinar se estes números, na ordem em que foram entrados,
+s~ao ou n~ao uma progress~ao geométrica. Se sim, mostrar a raz~ao desta progress~ao geométrica.
+Considere N no intervalo [0;1000].
+
+5. Faça um programa em Python que receba valores para uma matriz de 20 x 20, substitua e mostre
+os valores da diagonal principal como sendo o somatório dos demais valores de sua linha subtraído
+pelo somatório dos demais valores de sua coluna.
